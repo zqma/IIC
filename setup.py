@@ -1,4 +1,3 @@
-import setuptools
 from setuptools import setup
 
 
@@ -15,7 +14,12 @@ setup(
     license='',
     author='Xu Ji',
     author_email='Xu.Ji@Xu.Ji.com',
-    description='IIC'
+    description='IIC',
+    install_requires=[
+        'scikit-learn',
+        'tqdm',
+        'opencv-python'
+    ]
 )
 
 """
